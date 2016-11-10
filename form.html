@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Formulario</title>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="form.js"></script>
+    <link rel="stylesheet" type="text/css" href="form.css">
+  </head>
+  <body>
+  <h1>Registration Form</h1>
+    <form method="post">
+      <div class="capa">
+      <div class="txt">User id:</div><input type="text" name="userId" placeholder="Enter your User ID">
+      </div>
+
+      <div class="capa">
+      <div class="txt">Password:</div> <input type="text" name="password" placeholder="Enter your Password">
+      </div>
+
+      <div class="capa">
+      <div class="txt">Name:</div><input type="text" name="name" placeholder="Enter your Name"> </div>
+
+      <div class="capa">
+      <div class="txt">Address:</div><input type="text" name="address" placeholder="Enter your Address"> </div>
+
+      <div class="capa">
+      <div class="txt">Country:</div>
+      <select name="country">
+        <option>(Select a country)</option>
+        <option>Spain</option>
+        <option>England</option>
+        <option>Germany</option>
+      </select></div>
+      
+      <div class="capa">
+      <div class="txt">ZIP Code:</div><input type="text" name="zip" placeholder="Enter your ZIP Code"></div>
+      
+      <div class="capa">
+      <div class="txt">Email:</div><input type="text" name="email" placeholder="Enter your Email"></div>
+      
+      <div class="capa">
+      <div class="txt">Sex:</div>
+        <div id="input"><input type="radio" name="sex" value="1">Male</div>
+        <div id="input"><input type="radio" name="sex" value="2">Female </div>
+      </div>
+      
+      <div class="capa">
+      <div class="txt">Language:</div>
+        <div class="special">
+          <div id="input"><input type="checkbox" name="language" value="1">English</div>
+          <div id="input"><input type="checkbox" name="language" value="2">Non English</div>
+        </div>
+      </div>
+      
+      <div class="capa">
+      <div class="txt">About:</div><textarea name="about" rows="10" cols="40"></textarea></div>
+    </form>
+
+  <button id="submit">submit</button>
+  </body>
+</html>

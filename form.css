@@ -1,0 +1,21 @@
+.capa{
+	clear: both;
+	display: block;
+
+}
+.txt{
+	width: 7%;
+	display: inline-block;
+}
+.txt, input{
+	float: left;
+}
+
+.txtEspecial{
+	width: 7%;
+	display: inline-block;
+}
+
+#input, #input{
+	float: left;
+}
